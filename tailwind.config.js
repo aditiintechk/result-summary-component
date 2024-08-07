@@ -26,6 +26,9 @@ module.exports = {
 		fontFamily: {
 			sans: ['Hanken Grotesk'],
 		},
+		screens: {
+			mobile: { max: '400px' },
+		},
 	},
 	plugins: [],
 }
