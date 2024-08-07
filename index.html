@@ -14,7 +14,7 @@
 </head>
 
 <body class="bg-gray-200">
-  <main class="w-128 mt-24 m-auto flex">
+  <main class="w-512 mt-24 m-auto flex">
     <section class="w-1/2 bg-gradient-to-b from-slate-blue to-royal-blue text-white text-center p-6 rounded-2xl">
       <h1>Your Result</h1>
       <p class="m-6 p-8 bg-gradient-to-b from-violet-blue to-persian-blue rounded-full"><span
@@ -23,31 +23,35 @@
       <p class="text-xs opacity-80 m-4 tracking-wide">You scored higher than 65% of the people who have taken these
         tests.</p>
     </section>
-    <section class="bg-white p-6">
+    <section class="bg-white p-6 pr-2 flex justify-between flex-col">
       <h2 class="font-bold">Summary</h2>
       <ul>
-        <li class="flex">
+        <li
+          class="flex items-center p-2 ml-0 m-4 gap-2 w-192 bg-light-red-bg rounded-md font-semibold text-xs text-light-red">
           <img src="./src/images/icon-reaction.svg" alt="a lightning strike in red">
           Reaction
-          <span>80/100</span>
+          <span class="ml-auto">80 / 100</span>
         </li>
-        <li class="flex">
+        <li
+          class="flex items-center p-2 ml-0 m-4 gap-2 w-11/12 bg-orangey-yellow-bg rounded-md font-semibold text-xs text-orangey-yellow">
           <img src="./src/images/icon-memory.svg" alt="an outlined brain in yellow">
           Memory
-          <span>80/100</span>
+          <span class="ml-auto">92 / 100</span>
         </li>
-        <li class="flex">
+        <li
+          class="flex items-center p-2 ml-0 m-4 gap-2 w-11/12 bg-green-teal-bg rounded-md font-semibold text-xs text-green-teal">
           <img src="./src/images/icon-verbal.svg" alt="a message cloud in green">
           Verbal
-          <span>80/100</span>
+          <span class="ml-auto">61 / 100</span>
         </li>
-        <li class="flex">
+        <li
+          class="flex items-center p-2 ml-0 m-4 gap-2 w-11/12 bg-cobalt-blue-bg rounded-md font-semibold text-xs text-cobalt-blue">
           <img src="./src/images/icon-visual.svg" alt="an eye symbol in blue">
           Visual
-          <span>80/100</span>
+          <span class="ml-auto">72 / 100</span>
         </li>
       </ul>
-      <button>Continue</button>
+      <button class="bg-dark-gray-blue text-white w-11/12 text-xs p-2 rounded-full">Continue</button>
     </section>
   </main>
 </body>
